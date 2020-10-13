@@ -9,3 +9,11 @@ export const fetchData = async () => {
     console.log(confirmed, recovered, deaths, lastUpdate);
   } catch (error) {}
 };
+
+export const fetcDailyDate= async()=>{
+  try {
+    const response =await axios.get();
+  } catch (error) {
+    
+  }
+}
